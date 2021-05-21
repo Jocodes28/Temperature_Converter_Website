@@ -1,0 +1,24 @@
+body {
+    background-image: url("/images/depositphotos_55426393-stock-photo-light-grey-background.jpg");
+    background-size: cover;
+}
+
+div {
+    margin-top: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    margin-top: 30px;
+}
+img {
+    width: 3vw;
+    height: 3vh;
+}
+li {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 20px;
+}
