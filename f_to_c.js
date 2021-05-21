@@ -12,5 +12,5 @@ function convertBtnClicked() {
     let answer = ((farenheit - 32) * 0.55555555555);
 
     const answerField = document.getElementById("answer");
-    answerField.value = answer.toFixed(2);
+    answerField.value = answer;
 }

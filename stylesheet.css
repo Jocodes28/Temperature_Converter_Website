@@ -3,22 +3,49 @@ body {
     background-size: cover;
 }
 
-div {
+.banner {
+    background-image: url('/images/himmel-wolken-wetter-hintergrund-1597685110QCU.jpg');
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 75px;
+    padding-top: 15px;
+}
+
+.navStyle {
+    height:30px;
+}
+
+.scaleDescription {
     margin-top: 40px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
 }
 
-form {
+div {
+    text-align: center;
+}
+.formstyle {
+    text-align: center;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 20vw;
+    height: 25vh;
+
 }
-img {
-    width: 3vw;
-    height: 3vh;
-}
+
 li {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight:bold;
-    font-size: 20px;
+    font-size: 16px;
+}
+.piclink{
+    border-radius: 10px;
+    width: 2vw;
+    height: 2vh;
 }

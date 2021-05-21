@@ -16,31 +16,40 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/F_to_C.html">
-                        <img src="/images/f_to_c.PNG">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/C_to_F.html">
-                    <img src="images/c_tof.PNG">
-                    </a>
-                </li>
-            </ul>
-        </nav>
+
+        <div class="banner">
+            <h1>Temperature Converter</h1>
+        </div>
+        <div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark navStyle">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/F_to_C.html">
+                            <img class="piclink" src="images/f_to_c.PNG">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/C_to_F.html">
+                            <img class="piclink" src="images/c_tof.PNG">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
     </header>
 
+    
     <div class="container">
         <h2>Please enter the celsius temperature you wish to convert.</h2>
-        <form>
+        <form class="formstyle">
+            <br>
             <p>
                 <label for="celsius">Celsius: </label>
-                <input type="text" id="celsius">
+                <input type="number" id="celsius">
             </p>
             <p>
                 <label for="answer">Temperature in Farenheit: </label>

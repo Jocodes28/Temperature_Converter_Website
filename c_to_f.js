@@ -12,5 +12,5 @@ function convertBtnClicked() {
     let answer = ((celsius * 1.8) + 32);
 
     const answerField = document.getElementById("answer");
-    answerField.value = answer.toFixed(2);
+    answerField.value = answer;
 }
